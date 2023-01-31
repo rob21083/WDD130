@@ -1,0 +1,28 @@
+body {
+    background-color: grey;
+}
+
+#circles{
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0%;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    
+}
+p{
+    width: 100%;
+}
+
+img {
+    border: 15px solid darkgray;
+    border-radius: 50%;
+    margin: 50px
+    
+    /* width: 400px;
+    height: auto; */
+}
+#header {
+    width: 100%;
+}
