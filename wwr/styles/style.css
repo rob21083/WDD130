@@ -25,8 +25,9 @@ main section{
 }
 
 #background {
-    height: 725px;
-    background-color:#2E0219
+height: 750px;    
+background-color:#2E0219
+    
 }
       
 body{
@@ -122,11 +123,18 @@ h2 {
 }
 
 .rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
+    margin: 15px;
+    max-width: 30%;
+    display: inline-block;
+
 }
 .card-img{
-    border: 10px #FF01FB;
+    border: 10px solid  #FF01FB;
+    max-width: 100%;
+    max-height: 100%;
+
 }
 main section img {
     box-sizing: border-box;
 }
+
