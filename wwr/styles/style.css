@@ -168,8 +168,8 @@ h2 {
 }
 
 .rivers-card, .camping-card, .rapids-card {
-    margin: 15px;
-    max-width: 100%;
+    margin: 200px 0;
+   
 }
 .card-img{
     border: 10px solid  #FF01FB;
@@ -223,16 +223,13 @@ main section img {
 }
 
 .msg{
-    background-color: #2E0219;
+    background-color: #02A9EA;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #2E0219;
 } 
-.msg:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
