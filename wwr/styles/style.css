@@ -296,5 +296,53 @@ main section img {
 
 #sub-hero-image{
     width: 100%;
-    /* height: ; */
+}
+
+.subpage-grid{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#grid-img{
+    width: 100%;
+}
+  #grandcanyon3night{
+    /* text-align: center;
+    width: 500px; */
+    grid-column: 2/5;
+  }
+
+#grandcanyon6night{
+    /* text-align: center;
+    width: 500px; */
+    grid-column: 6/9;
+}
+
+#text{
+    font-family: Papyrus, Arial, sans-serif;
+}
+
+#rafts-mid{
+    grid-column: 3/7;
+}
+
+#salmon5nights{
+    grid-column: 2/5;
+}
+
+#desolation6night{
+    grid-column: 6/9;
+}
+
+#rafts-mid{
+    width: 100%;
+    grid-column: 3/8;
+}
+
+#sub-title{
+    color:#2E0219;
+    background-color:  rgba(2, 169, 234,85%);
 }
