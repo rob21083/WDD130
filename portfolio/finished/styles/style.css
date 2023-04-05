@@ -1,0 +1,88 @@
+body {
+	background-color: #FFFFFF;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #7E7F9A;
+	color: #FFFFFF;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo a {
+	color: #FFFFFF;
+	font-size: 24px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+.logo a i {
+	margin-right: 10px;
+}
+
+nav {
+	margin-top: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #2B4141;
+}
+
+main {
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+h2 {
+	margin-top: 20px;
+}
+
+footer {
+	background-color: #7E7F9A;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 20px;
+}
+
+.social-icons a {
+	color: #FFFFFF;
+	font-size: 24px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.social-icons a:hover {
+	color: #2B4141;
+}
+
+/* Font Awesome Icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
